@@ -3,3 +3,6 @@ machine:
     version: 2.2.0
   timezone: Asia/Tokyo
 
+test:
+  post:
+    - bundle exec rake
